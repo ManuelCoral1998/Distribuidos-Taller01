@@ -11,10 +11,10 @@
 ##### 1. Con acompañamiento del profesor elabore la creación y provisionamiento de la máquina virtual para la base de datos.  
 
 + Para la creación de la máquina virtual para la BD se hizo uso del siguiente archivo Vagrantfile  
-![Minion]()
+![Imagen 1](https://raw.githubusercontent.com/ManuelCoral1998/Distribuidos-Taller01/master/images/creacion-vm-DB-vagrantfile.PNG)  
 + Para el aprovisionamiento de la máquina virtual de la BD se hizo uso de lo siguiente: 
   * Un fragmento de codigo en el Vagrantfile:  
-  ![Minion]()
+  ![Imagen 2](https://raw.githubusercontent.com/ManuelCoral1998/Distribuidos-Taller01/master/images/fragmento-ansible-vagrantfile.PNG)
   * Se realizo lo siguiente en el archivo/directorio **hosts**:  
   ![Minion]()
   * Se hizo uso del siguiente archivo ***"servers.yml"*** que se encuentra en el playbook:
