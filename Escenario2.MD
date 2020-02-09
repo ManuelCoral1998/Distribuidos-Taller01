@@ -53,10 +53,14 @@
 **3. Aprovisionar el servidor de base de datos con Postgresql-11**
 
 + Para ello se elaboró el siguiente archivo Vagrantfile:  
-![Imagen 13]()  
+![Imagen 13](/images/actividad-extra.PNG	)  
+![Imagen 13](/images/actividad-extra-ansible.PNG)  
 
 + El archivo de ***hosts*** se creo de la siguiente manera:  
-![Imagen 14]()  
+![Imagen 14](/images/hosts-actividad-extra.PNG)  
 
 + Se creo un playbook llamado ***"servers-ws-db.yml"*** el cual contenia la siguiente información:  
-![Imagen 15]()
+![Imagen 15](/images/yml-actividad-extra.PNG)
+
++ Resultado
+![status](/images/status.PNG)
