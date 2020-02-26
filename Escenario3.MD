@@ -100,3 +100,9 @@ En esta captura se puede ver la conexión con la base de datos, que ocurre por e
 - Funcionamiento de la aplicación
 ![Imagen 14](/images/funcionamientoApp.png)  
 
+#### Dificultades  
+Para este escenario se encontro con la dificultad de "alcanzar" la base de datos cuando se encontraba en otra máquina, es decir, cuando no estaba en localhost. Al investigar, nos dimos cuenta que postgresql tiene dos archivos de configuración que permiten que la base de datos sea alcanzada por un puerto en especifico y desde una dirección de red especifica, al modificar estos archivos se logro acceder a la base de datos y realizar toda la actividad sin ningun problema.
+
+#### Conclusiones  
+Entrar en contacto con las tecnologias de nodejs y de postgresql fue muy enriquecedora debido a que la mayoria del grupo no habia tenido tal contacto y se aprovecho bastante para entender como funciona un APIRouter, un API REST y como realizar la conexión a una base de datos.
+En cuanto a las herramientas como vagrant y ansible, se logro una profundización (que había empezado desde el escenario 2) que permitió un mejor entendimiento sobre la utilidad y la importancia que tienen estas herramientas en el mercado actual.
