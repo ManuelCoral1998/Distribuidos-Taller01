@@ -1,8 +1,8 @@
 # Distribuidos
 
 ### Manuel Alejandro Coral Lozano - A00301480
-### Jose Camilo Moctezuma Ruiz - 
-### Cristian Alexander Duque Salazar - 
+### Jose Camilo Moctezuma Ruiz - A00024104
+### Cristian Alexander Duque Salazar - A00301448
 
 ## Escenario 02  
 
@@ -64,3 +64,11 @@
 
 + Resultado
 ![status](/images/status.PNG)
+
+#### Dificultades  
+En este caso la dificultad fue principalmente el hecho de que por culpa de una linea "ansible_limit = all", se estaba intentado aprovisionar una máquina que aun no habia sido creada, es decir, se creaba la máquina A, se aprovisionaba la máquina A pero en lugar de crear la máquina B, intentaba aprovisionar la máquina B que no ha sido creada y por tal motivo, ocurrian errores y no se lograba la completitud del proceso.
+
+#### Conclusiones  
+Esta forma de crear ambientes de pruebas y desplegar réplicas resulta muy apropiada debido a que no se pierde mucho tiempo realizando la configuración de cada máquina virtual, lo que usualmente quita mucho tiempo de lo que realmente importa, es decir, se pierde tiempo realizando configuración que despues no se volveran a tocar en lugar de estar ocupando ese tiempo probando el servicio o trabajando directamente sobre la aplicación.
+Tanto la creación, despliegue e inclusto algo del monitoreo resulta ser muy rápido y beneficioso para el negocio, ya que permite avanzar (en caso de exitos) o retroceder (en caso de errores) de una manera muy facil e intuitiva.
+El uso de las herramientas como vagrant y ansible demostró ser una habilidad muy importante si se mira desde una perspectiva "DevOps" ya que son herramientas que nos permite automatizar los procesos que, de manera tradicional, ocupan mucho tiempo y esfuerzo.
